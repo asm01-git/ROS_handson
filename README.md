@@ -45,6 +45,11 @@ Build the newly created package
 cd ~/catkin_ws
 catkin build
 ```
+Add 'source devel/setup.bash' to the bashrc, and source it.
+```sh
+echo 'source devel/setup.bash' >> ~/.bashrc
+source ~/.bashrc
+```
 ### Creating and using launch file
 Once the package is built correctly,let us create the launch file
 ```sh

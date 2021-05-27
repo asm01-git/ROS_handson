@@ -63,7 +63,7 @@ This should open a text editor.Paste the following code in it:
 ```
 <launch>
 	<node pkg="turtlesim" name="turtlesim" type="turtlesim_node"/>
-	<node pkg="turtlesim" name="teleop" type="turtlesim_teleop_key"/>
+	<node pkg="turtlesim" name="teleop" type="turtle_teleop_key"/>
 </launch>
 ```
 Save and close the editor.

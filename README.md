@@ -53,7 +53,7 @@ source ~/.bashrc
 ### Creating and using launch file
 Once the package is built correctly,let us create the launch file
 ```sh
-cd ~/catkin_ws/src/sample
+cd ~/catkin_ws/src/sample_pkg
 mkdir launch
 cd launch
 touch turtlesim.launch
@@ -70,7 +70,7 @@ Save and close the editor.
 Now let us launch the nodes!
 ```sh
 cd ~/catkin_ws
-roslaunch sample turtlesim.launch
+roslaunch sample_pkg turtlesim.launch
 ```
 The turtlesim window will popup with the turtle at the center. Use the arrow keys to move the turtle.
 ### Analysing the nodes and topics

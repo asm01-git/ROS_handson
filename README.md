@@ -30,7 +30,7 @@ Now, in a new cmd window run the key teleoperation node which communicates with 
 ```sh
 rosrun turtlesim turtle_teleop_key
 ```
-Keeping this terminal window open, use the arrow keys to move the turtle in various directions
+Keeping this terminal window on top, use the arrow keys to move the turtle in various directions
 
 ## Using catkin workspace and roslaunch
 The above method may not be viable for your future ROS projects. Usually we make a workspace in which we store all our required packages,dependencies,nodes etc. 
@@ -72,7 +72,8 @@ Now let us launch the nodes!
 cd ~/catkin_ws
 roslaunch sample_pkg turtlesim.launch
 ```
-The turtlesim window will popup with the turtle at the center. Use the arrow keys to move the turtle.
+The turtlesim window will popup with the turtle at the center.Go to the roslaunch terminal and use the arrow keys to move the turtle.
+**Note** : If you click arrow keys and nothing's happening it means you have minimised the roslaunch terminal. Just click this terminal to bring it on top.
 ### Analysing the nodes and topics
 To see all the currently running nodes, use:
 ```sh
@@ -90,7 +91,7 @@ Observe the messages being published in the **/turtle1/cmd_vel** topic using:
 ```sh
 rostopic echo /turtle1/cmd_vel
 ```
-Click ctrl+C and observe the messages that were being published continuously
+Now go back to the terminal window where you executed roslaunch and click arrow keys. Check the above rostopic echo terminal. You will see something like this:
 ```
 linear: 
   x: 2.0

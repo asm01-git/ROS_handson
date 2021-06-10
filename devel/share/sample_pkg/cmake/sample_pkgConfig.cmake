@@ -1,0 +1,1 @@
+/home/asm01/catkin_ws/devel/.private/sample_pkg/share/sample_pkg/cmake/sample_pkgConfig.cmake

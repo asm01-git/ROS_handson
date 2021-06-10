@@ -1,0 +1,8 @@
+prefix=/home/asm01/ws_for_session/devel/.private/sample_pkg
+
+Name: sample_pkg
+Description: Description of sample_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

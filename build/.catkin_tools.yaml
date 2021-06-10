@@ -1,0 +1,6 @@
+devel_space: /home/asm01/ws_for_session/devel
+install: false
+install_space: /home/asm01/ws_for_session/install
+profile: default
+source_space: /home/asm01/ws_for_session/src
+workspace: /home/asm01/ws_for_session
